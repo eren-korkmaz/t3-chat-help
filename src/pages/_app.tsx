@@ -7,4 +7,6 @@ const MyApp: AppType = ({ Component, pageProps }) => {
   return <Component {...pageProps} />;
 };
 
+//heryerde çıksın dersen
+
 export default trpc.withTRPC(MyApp);
